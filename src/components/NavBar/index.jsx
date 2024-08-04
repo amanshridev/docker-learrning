@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./index.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
+import { navbar } from "@/data";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,13 +18,14 @@ export default function NavBar() {
       {/* Desktop Menu */}
       <nav className="nav-bar">
         <ul className="nav-bar-list">
-          <li className="nav-list-items">Home</li>
-          <li className="nav-list-items">About</li>
-          <li className="nav-list-items">Service</li>
-          <li className="nav-list-items">Contact</li>
-          <li className="nav-list-items">Login</li>
+          {navbar.map((item) => (
+            <li className="nav-list-items" key={item.id}>
+              {item.title}
+            </li>
+          ))}
         </ul>
       </nav>
+      <button className="login-button">Login</button>
       {/* Mobile Menu */}
       <div className="mobile-menu">
         <GiHamburgerMenu
@@ -32,16 +34,15 @@ export default function NavBar() {
         />
         {isOpen && (
           <div className="mobile-nav">
-            <RxCross1
-            className="cancle-icon"
-            onClick={toggleMobileMenu}/>
+            <RxCross1 className="cancle-icon" onClick={toggleMobileMenu} />
             <nav className="mobile-nav-bar">
               <ul className="moblie-nav-list">
-                <li className="mobile-nav-items">Home</li>
-                <li className="mobile-nav-items">About</li>
-                <li className="mobile-nav-items">Service</li>
-                <li className="mobile-nav-items">Contact</li>
-                <li className="mobile-nav-items">Login</li>
+                {navbar.map((item) => (
+                  <li className="mobile-nav-items" key={item.id}>
+                    {item.title}
+                  </li>
+                ))}
+                <button className="login-button">Login</button>
               </ul>
             </nav>
           </div>
