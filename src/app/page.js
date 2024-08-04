@@ -1,8 +1,9 @@
+import HeroSection from "@/components/HeroSection";
 
-export default function App(){
-  return(
-    <div>
-      <h1>Cleared all files and code</h1>
-    </div>
-  )
+export default function App() {
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 }
