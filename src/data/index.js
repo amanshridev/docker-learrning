@@ -298,3 +298,21 @@ export const callScripts = [
       "Thank you for offering me the [Job Title] position. I'm very excited about the opportunity and the team. I reviewed the compensation package and while I appreciate it, I was hoping to discuss a salary closer to [Your Desired Salary Range] based on my skills and experience in [Relevant Skills] and current market rates for this role. I'm confident I can make a significant contribution to your company and am flexible on other aspects of the offer.",
   },
 ];
+
+export const dataChart = {
+  labels: ['Red', 'Orange', 'Blue'],
+  // datasets is an array of objects where each object represents a set of data to display corresponding to the labels above. for brevity, we'll keep it at one object
+  datasets: [
+      {
+        label: 'Popularity of colours',
+        data: [55, 23, 96],
+        // you can set indiviual colors for each bar
+        backgroundColor: [
+          'rgba(255, 255, 255, 0.6)',
+          'rgba(255, 255, 255, 0.6)',
+          'rgba(255, 255, 255, 0.6)'
+        ],
+        borderWidth: 1,
+      }
+  ]
+}
