@@ -315,4 +315,22 @@ export const dataChart = {
         borderWidth: 1,
       }
   ]
-}
+};
+
+export const userGroups = [
+  {
+    id: "1",
+    user: "Experienced IT Professionals",
+    description: "Our service is tailored for experienced IT professionals seeking to enhance their contact network and stay updated with industry trends."
+  },
+  {
+    id: "2",
+    user: "Freshers",
+    description: "Fresh graduates can benefit from our extensive database to kickstart their careers and find suitable job opportunities."
+  },
+  {
+    id: "3",
+    user: "Students",
+    description: "While primarily aimed at job seekers, students can also use our service to explore potential internships and gain industry insights."
+  }
+];
