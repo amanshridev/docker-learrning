@@ -24,7 +24,7 @@ const BarChart = () => {
       <VictoryAxis
         dependentAxis
         // tickFormat specifies how ticks should be displayed
-        tickFormat={(x) => `$${x / 1000}k`}
+        tickFormat={(x) => `${x / 1000}k`}
       />
       <VictoryBar data={data} x="quarter" y="earnings" />
     </VictoryChart>
