@@ -1,48 +1,46 @@
-'use client'
-import { useState } from "react";
+"use client";
 import Image from "next/image";
-import { homeHeaderData, dataChart } from "@/data";
+import { homeHeaderData } from "@/data";
 import "./index.css";
-import { CategoryScale } from "chart.js";
-import { BarChart } from "../BarChart";
-
-Chart.register(CategoryScale);
+import BarChart from "./BarChart";
+import PieChart from "./PieChart";
 
 export default function HeroSection() {
-  const [chartData, setChartData] = useState({
-    labels: dataChart.map((data) => data.year), 
-    datasets: [
-      {
-        label: "Users Gained ",
-        data: dataChart.map((data) => data.userGain),
-        backgroundColor: [
-          "rgba(75,192,192,1)",
-          "#ecf0f1",
-          "#50AF95",
-          "#f3ba2f",
-          "#2a71d0"
-        ],
-        borderColor: "black",
-        borderWidth: 2
-      }
-    ]
-  });
-
   return (
     <section className="hero-section">
       {homeHeaderData.map((item) => (
-        <div key={item.id}>
-          <h1>{item.main_heading}</h1>
-          <p>{item.sub_heading}</p>
+        <div key={item.id} className="left-section">
+          <p className="top-sub-heading">
+            100+ Happy
+            <br />
+            <span className="span-text">Customer</span>
+          </p>
+          <h1 className="main-heading">{item.main_heading}</h1>
+          <p className="sub-heading">{item.sub_heading}</p>
+          <div>
+            <button>Contact</button>
+            <button>View Details</button>
+          </div>
         </div>
       ))}
-      <div>
-        <Image src="" width={500} height={500} alt="hero" />
-        <div style="width: 800px;">
-          <BarChart chartData={chartData} />
+      <div className="right-section">
+        <div className="card">
+          <div className="card-left">
+            <Image src="/assets/hero-bg.png" width={100} height={100} alt="hero" />
+          </div>
+          <div className="card-left">
+            <BarChart />
+          </div>
         </div>
-        <div></div>
-        <div></div>
+        <div className="card">
+          <div className="card-with-bg"></div>
+          <div className="card-right">
+            <PieChart />
+          </div>
+          <div className="card-right">
+          <Image src="/assets/hero-bg.png" width={100} height={100} alt="hero" />
+          </div>
+        </div>
       </div>
     </section>
   );
