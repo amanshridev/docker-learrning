@@ -32,16 +32,17 @@ export const aboutCommitmentHeading = [
     id: "1",
     main_heading: "Empowering Connections, Enabling Success",
     sub_heading:
-      "Vijay Rath is a revolutionary platform that provides Students with exclusive access to HR emails and contact details. Our interface offers a curated selection of 30 emails and 10 numbers, with the ability to refresh for new contacts effortlessly. Students can also upload their information for automated distribution and seamless communication with potential recruiters.",
+      "Vijay Rath offers job seekers exclusive access to recent HR contacts. Our platform provides a curated list of 30 emails and 10 numbers, with easy refresh options. Students can upload their details for automatic distribution and smooth communication with recruiters.",
   },
 ];
+
 
 export const aboutCommitmentInfo = [
   {
     id: "1",
     content_heading: "Our Commitment",
     content_body:
-      "At Vijay Rath, our mission is to empower Students and Job Seeker Professtionals with a complete package by providing them contacts of real and active HRs and Recruiters,who can truly offer job opportunities, along with tools, knowledge, and resources needed to effortlessly update their information and connect with potential recruiters. We strive to bridge the gap between Job-Seekers and Recruiters, making the job search process more efficient and effective.",
+      "At Vijay Rath, we aim to help students and job seekers by connecting them with real HRs and recruiters who offer genuine job opportunities. We provide the tools and resources needed to keep your information up-to-date and find the right job.",
     picUrl: "/images/commitment.jpeg",
     float: "left",
   },
@@ -49,7 +50,7 @@ export const aboutCommitmentInfo = [
     id: "2",
     content_heading: "Core Values",
     content_body:
-      "Ask Right People Only: Reaching out to random professionals and fake HRs on Likedin won't land you a single interview.Right Tech Stack Only: The reality is, using the wrong or overly hyped tech stack can hinder your future.\nRight Sentences Only: Having average conversations with HRs can kill your interview opportunity.",
+      "Ask the Right People: Contacting random or fake HRs on LinkedIn won’t get you an interview. Use the Right Tech Stack: Using the wrong tech stack can hurt your career. Have Quality Conversations: Average talks with HRs can ruin your job chances.",
     picUrl: "/images/core-values.jpeg",
     float: "right",
   },
@@ -57,92 +58,91 @@ export const aboutCommitmentInfo = [
     id: "3",
     content_heading: "Our Motto",
     content_body:
-      "Our goal is to ensure you are always ahead in your job search and career development. With Vijay Rath, your Journey must be lot easier and lands you lot more opportunities than any job seeker. We are committed to help you choosing the most right path and techstack, enhance your Knowledge and increase your chances of success in the competitive job market. This continuous learning and improvement approach ensures that you are not only prepared for today's opportunities but are also equipped to face future challenges with confidence.",
+      "Our goal is to make your job search and career growth easier. With Vijay Rath, you’ll get more opportunities and find the right path. We focus on improving your skills and knowledge to help you succeed in today’s job market and future challenges.",
     picUrl: "/images/motto.jpeg",
     float: "left",
   },
 ];
+
+
+
 
 // HOME PAGE DATA
 
 export const challenges = [
   {
     id: "1",
-    c_logo: "<FaList />",
     c_heading: "Limited Contacts",
-    c_content: "Students struggle with accessing a diverse range of HR emails and contact numbers to kickstart their careers",
+    c_content: "job seekers find it challenging to access a wide range of HR emails and contact numbers to start their careers.",
   },
   {
     id: "2",
-    c_logo: "<CgSandClock />",
     c_heading: "Outdated Information",
-    c_content: "Difficulty in obtaining up-to-date email addresses and contact details of relevant HR professionals in various industries",
+    c_content: "Obtaining up-to-date email addresses and contact details of Recently hiring HR professionals across companies is difficult.",
   },
   {
     id: "3",
-    c_logo: "<TiSpiral />",
     c_heading: "Time-Consuming Process",
-    c_content: "Wasting hours searching for emails and contact numbers of recruiters, still get fake contacts",
+    c_content: "Wasting hours searching for genuine recruiter contacts, only to encounter many fake or outdated ones.",
   },
   {
     id: "4",
-    c_logo: "<FaMobileScreen />",
-    c_heading: "No Enough Opportunities",
-    c_content: "Many job seekers end up with few interview opportunities, forcing them to change careers or remain jobless.",
+    c_heading: "Less Opportunities",
+    c_content: "Many job seekers struggle to find enough interview opportunities, often forcing them to change careers or stay jobless.",
   },
   {
     id: "5",
-    c_logo: "<FaMobileScreen />",
     c_heading: "Ineffective Communication",
-    c_content: "Candidates struggling to communicate effectively with recruiters to inquire about job availability correctly, resulting in poor impressions & no interviews.",
+    c_content: "Candidates struggle to communicate effectively with recruiters, resulting in poor impressions and missed interview chances.",
   },
   {
     id: "6",
-    c_logo: "<FaMobileScreen />",
-    c_heading: "Lack of smartness",
-    c_content: "Not smart enough to get raw reality, lacking crucial skills, unaware of smart & clever tactics includes hidden support during interviews, which are crucial to land a job in a competitive environment.",
+    c_heading: "Lack of Skills",
+    c_content: "Job seekers often lack the crucial skills and smart tactics needed to navigate the competitive job market successfully.",
   },
 ];
+
 
 
 export const solutions = [
   {
     id: "1",
-    title: 'Thousands Of Active Recruiters',
-    description: 'Gain access to an extensive database of active HR emails and contact numbers from diverse industries to jumpstart your career.',
-    image: '/images/active-hr.jpeg',
+    title: "Thousands Of Active Recruiters",
+    description: "Access a large database of active HR emails and contact numbers from diverse industries to boost your career.",
+    image: "/images/active-hr.jpeg",
   },
   {
     id: "2",
-    title: 'Updated Information',
-    description: 'Set of 6 videos tell you the winners fixed-approach and unbelievable tricks, that few are aware of. This will increase your chances by 70% to get interviews and clearing rounds.',
-    image: '/images/updated-info.jpeg',
+    title: "Updated Information",
+    description: "Learn winning strategies and tricks from 6 videos, increasing your chances of getting interviews and job offers.",
+    image: "/images/updated-info.jpeg",
   },
   {
     id: "3",
-    title: 'Efficient Search Process',
-    description: 'Save time with our curated list of genuine recruiter contacts, eliminating the frustration of sifting through fake or outdated information.',
-    image: '/images/efficient-search.jpeg',
+    title: "Efficient Search Process",
+    description: "Save time with our genuine recruiter contacts list, avoiding the frustration of dealing with fake information.",
+    image: "/images/efficient-search.jpeg",
   },
   {
     id: "4",
-    title: 'Increased Opportunities',
-    description: 'Unlock a wealth of interview opportunities with direct access to recruiters, enhancing your chances of securing job offers and avoiding career stagnation.',
-    image: '/images/increased-opportunity.jpeg',
+    title: "Increased Opportunities",
+    description: "Gain more interview opportunities with direct recruiter access, improving your chances of securing job offers.",
+    image: "/images/increased-opportunity.jpeg",
   },
   {
     id: "5",
-    title: 'Effective Enquiry',
-    description: 'Utilize our call scripts and communication strategies to effectively engage with recruiters, making a strong impression and inquiring about job availability the right way.',
-    image: '/images/call-script.jpeg',
+    title: "Effective Enquiry",
+    description: "Use our call scripts and strategies to engage with recruiters effectively and make a strong impression.",
+    image: "/images/call-script.jpeg",
   },
   {
     id: "6",
-    title: 'Smart Job Search Tactics',
-    description: 'Equip yourself with essential skills and clever tactics, including hidden support during interviews, to navigate the competitive job market and land your desired job.',
-    image: '/images/job-tactics.jpeg',
+    title: "Smart Job Search Tactics",
+    description: "Gain essential skills and tactics, including hidden support during interviews, to excel in the competitive job market.",
+    image: "/images/job-tactics.jpeg",
   },
 ];
+
 
 
 export const FaqData = [
