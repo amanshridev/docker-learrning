@@ -297,4 +297,41 @@ export const callScripts = [
     description:
       "Thank you for offering me the [Job Title] position. I'm very excited about the opportunity and the team. I reviewed the compensation package and while I appreciate it, I was hoping to discuss a salary closer to [Your Desired Salary Range] based on my skills and experience in [Relevant Skills] and current market rates for this role. I'm confident I can make a significant contribution to your company and am flexible on other aspects of the offer.",
   },
+
+
+export const dataChart = {
+  labels: ['Red', 'Orange', 'Blue'],
+  // datasets is an array of objects where each object represents a set of data to display corresponding to the labels above. for brevity, we'll keep it at one object
+  datasets: [
+      {
+        label: 'Popularity of colours',
+        data: [55, 23, 96],
+        // you can set indiviual colors for each bar
+        backgroundColor: [
+          'rgba(255, 255, 255, 0.6)',
+          'rgba(255, 255, 255, 0.6)',
+          'rgba(255, 255, 255, 0.6)'
+        ],
+        borderWidth: 1,
+      }
+  ]
+};
+
+export const userGroups = [
+  {
+    id: "1",
+    user: "Experienced IT Professionals",
+    description: "Our service is tailored for experienced IT professionals seeking to enhance their contact network and stay updated with industry trends."
+  },
+  {
+    id: "2",
+    user: "Freshers",
+    description: "Fresh graduates can benefit from our extensive database to kickstart their careers and find suitable job opportunities."
+  },
+  {
+    id: "3",
+    user: "Students",
+    description: "While primarily aimed at job seekers, students can also use our service to explore potential internships and gain industry insights."
+  }
 ];
+
