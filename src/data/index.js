@@ -25,7 +25,6 @@ export const navbar = [
     title: "Knowledge",
   },
 ];
-
 // ABOUT PAGE DATA
 export const aboutCommitmentHeading = [
   {
@@ -208,7 +207,6 @@ export const FaqData = [
       "Our focus is on providing interview preparation resources and industry insights – not promoting unethical practices. We believe confidence and strong preparation are key to success.",
   },
 ];
-
 export const homeHeaderData = [
   {
     id: "1",
@@ -217,7 +215,6 @@ export const homeHeaderData = [
       "Experience the advantages of utilizing Vijay Rath for your job search",
   },
 ];
-
 export const homefeaturesData = [
   {
     id: "1",
@@ -238,9 +235,7 @@ export const homefeaturesData = [
       "Save time and energy by easily refreshing your contact list with the click of a button, ensuring efficient job search",
   },
 ];
-
 // SERVICES PAGE DATA
-
 // data for banner cards
 export const commitmentHeading = [
   {
@@ -250,7 +245,6 @@ export const commitmentHeading = [
       "Vijay Rath is a revolutionary platform that provides students with exclusive access to HR emails and contact details. Our interface offers a curated selection of 30 emails and 10 numbers, with the ability to refresh for new contacts effortlessly. Students can also upload their information for automated distribution and seamless communication with potential recruiters.",
   },
 ];
-
 export const commitmentInfo = [
   {
     id: "1",
@@ -280,7 +274,6 @@ export const commitmentInfo = [
     float: "left",
   },
 ];
-
 // data for text card
 export const headerData = [
   {
@@ -290,7 +283,6 @@ export const headerData = [
       "Experience the advantages of utilizing Vijay Rath for your job search",
   },
 ];
-
 const featuresData = [
   {
     id: "1",
@@ -311,7 +303,6 @@ const featuresData = [
       "Save time and energy by easily refreshing your contact list with the click of a button, ensuring efficient job search",
   },
 ];
-
 // TEMPLATE PAGE DATA
 export const mailTemplates = [
   {
@@ -339,7 +330,6 @@ export const mailTemplates = [
       "Dear [Hiring Manager name], \n I am writing to submit my application for the [Job title] position currently advertised on [Platform where you saw the job]. With [Number] years of experience in [Your industry], I possess a strong track record of success in [Highlight relevant accomplishments]. \n My skills and experience in [List relevant skills] make me a perfect fit for the requirements outlined in the job description. I am particularly interested in [Mention specific aspects of the job that appeal to you]. \n My resume is attached, providing a detailed overview of my qualifications. I am confident that I can make a valuable contribution to your team. \n Thank you for your time and consideration. I am available for an interview at your earliest convenience. \n Sincerely, [Your name]",
   },
 ];
-
 export const callScripts = [
   {
     id: "1",
@@ -378,7 +368,6 @@ export const callScripts = [
       "Thank you for offering me the [Job Title] position. I'm very excited about the opportunity and the team. I reviewed the compensation package and while I appreciate it, I was hoping to discuss a salary closer to [Your Desired Salary Range] based on my skills and experience in [Relevant Skills] and current market rates for this role. I'm confident I can make a significant contribution to your company and am flexible on other aspects of the offer.",
   },
 ];
-
 export const dataChart = {
   labels: ['Red', 'Orange', 'Blue'],
   // datasets is an array of objects where each object represents a set of data to display corresponding to the labels above. for brevity, we'll keep it at one object
@@ -396,7 +385,6 @@ export const dataChart = {
       }
   ]
 };
-
 export const userGroups = [
   {
     id: "1",
@@ -414,4 +402,3 @@ export const userGroups = [
     description: "While primarily aimed at job seekers, students can also use our service to explore potential internships and gain industry insights."
   }
 ];
-
