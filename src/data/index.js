@@ -65,6 +65,86 @@ export const aboutCommitmentInfo = [
 
 // HOME PAGE DATA
 
+export const challenges = [
+  {
+    id: "1",
+    c_logo: "<FaList />",
+    c_heading: "Limited Contacts",
+    c_content: "Students struggle with accessing a diverse range of HR emails and contact numbers to kickstart their careers",
+  },
+  {
+    id: "2",
+    c_logo: "<CgSandClock />",
+    c_heading: "Outdated Information",
+    c_content: "Difficulty in obtaining up-to-date email addresses and contact details of relevant HR professionals in various industries",
+  },
+  {
+    id: "3",
+    c_logo: "<TiSpiral />",
+    c_heading: "Time-Consuming Process",
+    c_content: "Wasting hours searching for emails and contact numbers of recruiters, still get fake contacts",
+  },
+  {
+    id: "4",
+    c_logo: "<FaMobileScreen />",
+    c_heading: "No Enough Opportunities",
+    c_content: "Many job seekers end up with few interview opportunities, forcing them to change careers or remain jobless.",
+  },
+  {
+    id: "5",
+    c_logo: "<FaMobileScreen />",
+    c_heading: "Ineffective Communication",
+    c_content: "Candidates struggling to communicate effectively with recruiters to inquire about job availability correctly, resulting in poor impressions & no interviews.",
+  },
+  {
+    id: "6",
+    c_logo: "<FaMobileScreen />",
+    c_heading: "Lack of smartness",
+    c_content: "Not smart enough to get raw reality, lacking crucial skills, unaware of smart & clever tactics includes hidden support during interviews, which are crucial to land a job in a competitive environment.",
+  },
+];
+
+
+export const solutions = [
+  {
+    id: "1",
+    title: 'Thousands Of Active Recruiters',
+    description: 'Gain access to an extensive database of active HR emails and contact numbers from diverse industries to jumpstart your career.',
+    image: '/images/active-hr.jpeg',
+  },
+  {
+    id: "2",
+    title: 'Updated Information',
+    description: 'Set of 6 videos tell you the winners fixed-approach and unbelievable tricks, that few are aware of. This will increase your chances by 70% to get interviews and clearing rounds.',
+    image: '/images/updated-info.jpeg',
+  },
+  {
+    id: "3",
+    title: 'Efficient Search Process',
+    description: 'Save time with our curated list of genuine recruiter contacts, eliminating the frustration of sifting through fake or outdated information.',
+    image: '/images/efficient-search.jpeg',
+  },
+  {
+    id: "4",
+    title: 'Increased Opportunities',
+    description: 'Unlock a wealth of interview opportunities with direct access to recruiters, enhancing your chances of securing job offers and avoiding career stagnation.',
+    image: '/images/increased-opportunity.jpeg',
+  },
+  {
+    id: "5",
+    title: 'Effective Enquiry',
+    description: 'Utilize our call scripts and communication strategies to effectively engage with recruiters, making a strong impression and inquiring about job availability the right way.',
+    image: '/images/call-script.jpeg',
+  },
+  {
+    id: "6",
+    title: 'Smart Job Search Tactics',
+    description: 'Equip yourself with essential skills and clever tactics, including hidden support during interviews, to navigate the competitive job market and land your desired job.',
+    image: '/images/job-tactics.jpeg',
+  },
+];
+
+
 export const FaqData = [
   {
     id: "1",
@@ -297,7 +377,7 @@ export const callScripts = [
     description:
       "Thank you for offering me the [Job Title] position. I'm very excited about the opportunity and the team. I reviewed the compensation package and while I appreciate it, I was hoping to discuss a salary closer to [Your Desired Salary Range] based on my skills and experience in [Relevant Skills] and current market rates for this role. I'm confident I can make a significant contribution to your company and am flexible on other aspects of the offer.",
   },
-
+];
 
 export const dataChart = {
   labels: ['Red', 'Orange', 'Blue'],
