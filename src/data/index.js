@@ -297,7 +297,7 @@ export const callScripts = [
     description:
       "Thank you for offering me the [Job Title] position. I'm very excited about the opportunity and the team. I reviewed the compensation package and while I appreciate it, I was hoping to discuss a salary closer to [Your Desired Salary Range] based on my skills and experience in [Relevant Skills] and current market rates for this role. I'm confident I can make a significant contribution to your company and am flexible on other aspects of the offer.",
   },
-];
+
 
 export const dataChart = {
   labels: ['Red', 'Orange', 'Blue'],
@@ -334,3 +334,4 @@ export const userGroups = [
     description: "While primarily aimed at job seekers, students can also use our service to explore potential internships and gain industry insights."
   }
 ];
+
