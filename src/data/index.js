@@ -407,6 +407,7 @@ export const userGroups = [
  export const plans = [
   {
     "title": "Plan A",
+    "type": "Base",
     "real_price": "800",
     "price": "699",
     "duration": "6 months",
@@ -426,6 +427,7 @@ export const userGroups = [
   },
   {
     "title": "Plan C",
+    "type": "Popular",
     "real_price": "1900",
     "price": "1499",
     "duration": "6 months",
@@ -445,6 +447,7 @@ export const userGroups = [
   },
   {
     "title": "Plan B",
+    "type": "Base",
     "real_price": "1100",
     "price": "999",
     "duration": "6 months",
