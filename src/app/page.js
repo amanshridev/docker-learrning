@@ -1,15 +1,9 @@
-import ChallengesSection from "@/components/ChallengesSection";
-import HeroSection from "@/components/HeroSection";
-import PricePlanSection from "@/components/PricePlansSection";
-import WhoWeServeSection from "@/components/WhoWeServeSection";
+import React from 'react'
 
-export default function App() {
+export default function App(){
   return (
     <>
-      <HeroSection />
-      <WhoWeServeSection />
-      <ChallengesSection />
-      <PricePlanSection />
+    <h1>This is a Docker App</h1>
     </>
-  );
+  )
 }
